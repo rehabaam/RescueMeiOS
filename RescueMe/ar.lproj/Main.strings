@@ -1,0 +1,20 @@
+
+/* Class = "IBUIViewController"; title = "First"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "First";
+
+/* Class = "IBUIViewController"; title = "Second"; ObjectID = "QUy-BD-bpt"; */
+"QUy-BD-bpt.title" = "Second";
+
+/* Class = "IBUILabel"; text = "اطلب النجدة"; ObjectID = "W3n-Bw-KU7"; */
+"W3n-Bw-KU7.text" = "اطلب النجدة";
+
+/* Class = "IBUITabBarItem"; title = "Status"; ObjectID = "Z7h-1E-pvt"; */
+"Z7h-1E-pvt.title" = "الحالة";
+
+/* Class = "IBUILabel"; text = "اطلب النجدة"; ObjectID = "hR2-qp-Xwq"; */
+"hR2-qp-Xwq.text" = "اطلب النجدة";
+
+/* Class = "IBUITabBarItem"; title = "Rescue Me"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "النجدة";
+
+"2VE-Yg-loa.text" = "ارسل";
