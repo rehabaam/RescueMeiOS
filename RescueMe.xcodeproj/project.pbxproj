@@ -7,167 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDB34EBE193A23AA00A04A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EBD193A23AA00A04A67 /* Foundation.framework */; };
-		FDB34EC0193A23AA00A04A67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EBF193A23AA00A04A67 /* CoreGraphics.framework */; };
-		FDB34EC2193A23AA00A04A67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EC1193A23AA00A04A67 /* UIKit.framework */; };
-		FDB34EC8193A23AA00A04A67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB34EC6193A23AA00A04A67 /* InfoPlist.strings */; };
-		FDB34ECA193A23AA00A04A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB34EC9193A23AA00A04A67 /* main.m */; };
-		FDB34ECE193A23AA00A04A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB34ECD193A23AA00A04A67 /* AppDelegate.m */; };
-		FDB34ED1193A23AA00A04A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB34ECF193A23AA00A04A67 /* Main.storyboard */; };
-		FDB34ED4193A23AA00A04A67 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB34ED3193A23AA00A04A67 /* FirstViewController.m */; };
-		FDB34ED7193A23AA00A04A67 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB34ED6193A23AA00A04A67 /* SecondViewController.m */; };
-		FDB34ED9193A23AA00A04A67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB34ED8193A23AA00A04A67 /* Images.xcassets */; };
-		FDB34EE0193A23AA00A04A67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EDF193A23AA00A04A67 /* XCTest.framework */; };
-		FDB34EE1193A23AA00A04A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EBD193A23AA00A04A67 /* Foundation.framework */; };
-		FDB34EE2193A23AA00A04A67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EC1193A23AA00A04A67 /* UIKit.framework */; };
-		FDB34EEA193A23AA00A04A67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB34EE8193A23AA00A04A67 /* InfoPlist.strings */; };
-		FDB34EEC193A23AA00A04A67 /* RescueMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB34EEB193A23AA00A04A67 /* RescueMeTests.m */; };
-		FDB34EF6193A23E200A04A67 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EF5193A23E200A04A67 /* MessageUI.framework */; };
-		FDB34EF8193A23EE00A04A67 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EF7193A23EE00A04A67 /* CoreLocation.framework */; };
-		FDB34EFA193A240100A04A67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB34EF9193A240100A04A67 /* MapKit.framework */; };
+		FD038DB6194301E600D34215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD038DB5194301E600D34215 /* main.m */; };
+		FD038DB9194301E600D34215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD038DB8194301E600D34215 /* AppDelegate.m */; };
+		FD038DBC194301E600D34215 /* RescueMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD038DBB194301E600D34215 /* RescueMeViewController.m */; };
+		FD038DBF194301E700D34215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD038DBD194301E700D34215 /* Main.storyboard */; };
+		FD038DC1194301E700D34215 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD038DC0194301E700D34215 /* Images.xcassets */; };
+		FD038DCD194301E700D34215 /* RescueMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD038DCC194301E700D34215 /* RescueMeTests.m */; };
+		FD038DD71943022300D34215 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD038DD61943022300D34215 /* MessageUI.framework */; };
+		FD038DD91943022A00D34215 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD038DD81943022A00D34215 /* MapKit.framework */; };
+		FD038DDB1943023200D34215 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD038DDA1943023200D34215 /* CoreLocation.framework */; };
+		FD038DDD1943024700D34215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD038DDC1943024700D34215 /* Foundation.framework */; };
+		FD038DE0194302AA00D34215 /* RescueMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD038DDF194302AA00D34215 /* RescueMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FDB34EE3193A23AA00A04A67 /* PBXContainerItemProxy */ = {
+		FD038DC7194301E700D34215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FDB34EB2193A23AA00A04A67 /* Project object */;
+			containerPortal = FD038DA8194301E600D34215 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDB34EB9193A23AA00A04A67;
+			remoteGlobalIDString = FD038DAF194301E600D34215;
 			remoteInfo = RescueMe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDB34EBA193A23AA00A04A67 /* RescueMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescueMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDB34EBD193A23AA00A04A67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FDB34EBF193A23AA00A04A67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FDB34EC1193A23AA00A04A67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FDB34EC5193A23AA00A04A67 /* RescueMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RescueMe-Info.plist"; sourceTree = "<group>"; };
-		FDB34EC7193A23AA00A04A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FDB34EC9193A23AA00A04A67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FDB34ECB193A23AA00A04A67 /* RescueMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RescueMe-Prefix.pch"; sourceTree = "<group>"; };
-		FDB34ECC193A23AA00A04A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FDB34ECD193A23AA00A04A67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDB34ED0193A23AA00A04A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDB34ED2193A23AA00A04A67 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FDB34ED3193A23AA00A04A67 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FDB34ED5193A23AA00A04A67 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FDB34ED6193A23AA00A04A67 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		FDB34ED8193A23AA00A04A67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FDB34EDE193A23AA00A04A67 /* RescueMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RescueMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDB34EDF193A23AA00A04A67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FDB34EE7193A23AA00A04A67 /* RescueMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RescueMeTests-Info.plist"; sourceTree = "<group>"; };
-		FDB34EE9193A23AA00A04A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FDB34EEB193A23AA00A04A67 /* RescueMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RescueMeTests.m; sourceTree = "<group>"; };
-		FDB34EF5193A23E200A04A67 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		FDB34EF7193A23EE00A04A67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		FDB34EF9193A240100A04A67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FDB34EFB193A257F00A04A67 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FDB34EFC193A257F00A04A67 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
-		FDB34EFD193A257F00A04A67 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD038DB0194301E600D34215 /* RescueMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescueMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD038DB4194301E600D34215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD038DB5194301E600D34215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD038DB7194301E600D34215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD038DB8194301E600D34215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD038DBA194301E600D34215 /* RescueMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RescueMeViewController.h; sourceTree = "<group>"; };
+		FD038DBB194301E600D34215 /* RescueMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RescueMeViewController.m; sourceTree = "<group>"; };
+		FD038DBE194301E700D34215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD038DC0194301E700D34215 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD038DC6194301E700D34215 /* RescueMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RescueMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD038DCB194301E700D34215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD038DCC194301E700D34215 /* RescueMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RescueMeTests.m; sourceTree = "<group>"; };
+		FD038DD61943022300D34215 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FD038DD81943022A00D34215 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD038DDA1943023200D34215 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD038DDC1943024700D34215 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD038DDE194302AA00D34215 /* RescueMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RescueMe.h; sourceTree = "<group>"; };
+		FD038DDF194302AA00D34215 /* RescueMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RescueMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FDB34EB7193A23AA00A04A67 /* Frameworks */ = {
+		FD038DAD194301E600D34215 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34EFA193A240100A04A67 /* MapKit.framework in Frameworks */,
-				FDB34EF8193A23EE00A04A67 /* CoreLocation.framework in Frameworks */,
-				FDB34EF6193A23E200A04A67 /* MessageUI.framework in Frameworks */,
-				FDB34EC0193A23AA00A04A67 /* CoreGraphics.framework in Frameworks */,
-				FDB34EC2193A23AA00A04A67 /* UIKit.framework in Frameworks */,
-				FDB34EBE193A23AA00A04A67 /* Foundation.framework in Frameworks */,
+				FD038DDD1943024700D34215 /* Foundation.framework in Frameworks */,
+				FD038DDB1943023200D34215 /* CoreLocation.framework in Frameworks */,
+				FD038DD91943022A00D34215 /* MapKit.framework in Frameworks */,
+				FD038DD71943022300D34215 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDB34EDB193A23AA00A04A67 /* Frameworks */ = {
+		FD038DC3194301E700D34215 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34EE0193A23AA00A04A67 /* XCTest.framework in Frameworks */,
-				FDB34EE2193A23AA00A04A67 /* UIKit.framework in Frameworks */,
-				FDB34EE1193A23AA00A04A67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FDB34EB1193A23AA00A04A67 = {
+		FD038DA7194301E600D34215 = {
 			isa = PBXGroup;
 			children = (
-				FDB34EC3193A23AA00A04A67 /* RescueMe */,
-				FDB34EE5193A23AA00A04A67 /* RescueMeTests */,
-				FDB34EBC193A23AA00A04A67 /* Frameworks */,
-				FDB34EBB193A23AA00A04A67 /* Products */,
+				FD038DDC1943024700D34215 /* Foundation.framework */,
+				FD038DDA1943023200D34215 /* CoreLocation.framework */,
+				FD038DD81943022A00D34215 /* MapKit.framework */,
+				FD038DD61943022300D34215 /* MessageUI.framework */,
+				FD038DB2194301E600D34215 /* RescueMe */,
+				FD038DC9194301E700D34215 /* RescueMeTests */,
+				FD038DB1194301E600D34215 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FDB34EBB193A23AA00A04A67 /* Products */ = {
+		FD038DB1194301E600D34215 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDB34EBA193A23AA00A04A67 /* RescueMe.app */,
-				FDB34EDE193A23AA00A04A67 /* RescueMeTests.xctest */,
+				FD038DB0194301E600D34215 /* RescueMe.app */,
+				FD038DC6194301E700D34215 /* RescueMeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDB34EBC193A23AA00A04A67 /* Frameworks */ = {
+		FD038DB2194301E600D34215 /* RescueMe */ = {
 			isa = PBXGroup;
 			children = (
-				FDB34EF9193A240100A04A67 /* MapKit.framework */,
-				FDB34EF7193A23EE00A04A67 /* CoreLocation.framework */,
-				FDB34EF5193A23E200A04A67 /* MessageUI.framework */,
-				FDB34EBD193A23AA00A04A67 /* Foundation.framework */,
-				FDB34EBF193A23AA00A04A67 /* CoreGraphics.framework */,
-				FDB34EC1193A23AA00A04A67 /* UIKit.framework */,
-				FDB34EDF193A23AA00A04A67 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FDB34EC3193A23AA00A04A67 /* RescueMe */ = {
-			isa = PBXGroup;
-			children = (
-				FDB34ECC193A23AA00A04A67 /* AppDelegate.h */,
-				FDB34ECD193A23AA00A04A67 /* AppDelegate.m */,
-				FDB34ECF193A23AA00A04A67 /* Main.storyboard */,
-				FDB34ED2193A23AA00A04A67 /* FirstViewController.h */,
-				FDB34ED3193A23AA00A04A67 /* FirstViewController.m */,
-				FDB34ED5193A23AA00A04A67 /* SecondViewController.h */,
-				FDB34ED6193A23AA00A04A67 /* SecondViewController.m */,
-				FDB34ED8193A23AA00A04A67 /* Images.xcassets */,
-				FDB34EC4193A23AA00A04A67 /* Supporting Files */,
+				FD038DDE194302AA00D34215 /* RescueMe.h */,
+				FD038DDF194302AA00D34215 /* RescueMe.m */,
+				FD038DB7194301E600D34215 /* AppDelegate.h */,
+				FD038DB8194301E600D34215 /* AppDelegate.m */,
+				FD038DBA194301E600D34215 /* RescueMeViewController.h */,
+				FD038DBB194301E600D34215 /* RescueMeViewController.m */,
+				FD038DBD194301E700D34215 /* Main.storyboard */,
+				FD038DC0194301E700D34215 /* Images.xcassets */,
+				FD038DB3194301E600D34215 /* Supporting Files */,
 			);
 			path = RescueMe;
 			sourceTree = "<group>";
 		};
-		FDB34EC4193A23AA00A04A67 /* Supporting Files */ = {
+		FD038DB3194301E600D34215 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDB34EC5193A23AA00A04A67 /* RescueMe-Info.plist */,
-				FDB34EC6193A23AA00A04A67 /* InfoPlist.strings */,
-				FDB34EC9193A23AA00A04A67 /* main.m */,
-				FDB34ECB193A23AA00A04A67 /* RescueMe-Prefix.pch */,
+				FD038DB4194301E600D34215 /* Info.plist */,
+				FD038DB5194301E600D34215 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FDB34EE5193A23AA00A04A67 /* RescueMeTests */ = {
+		FD038DC9194301E700D34215 /* RescueMeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FDB34EEB193A23AA00A04A67 /* RescueMeTests.m */,
-				FDB34EE6193A23AA00A04A67 /* Supporting Files */,
+				FD038DCC194301E700D34215 /* RescueMeTests.m */,
+				FD038DCA194301E700D34215 /* Supporting Files */,
 			);
 			path = RescueMeTests;
 			sourceTree = "<group>";
 		};
-		FDB34EE6193A23AA00A04A67 /* Supporting Files */ = {
+		FD038DCA194301E700D34215 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDB34EE7193A23AA00A04A67 /* RescueMeTests-Info.plist */,
-				FDB34EE8193A23AA00A04A67 /* InfoPlist.strings */,
+				FD038DCB194301E700D34215 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,13 +140,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDB34EB9193A23AA00A04A67 /* RescueMe */ = {
+		FD038DAF194301E600D34215 /* RescueMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB34EEF193A23AA00A04A67 /* Build configuration list for PBXNativeTarget "RescueMe" */;
+			buildConfigurationList = FD038DD0194301E700D34215 /* Build configuration list for PBXNativeTarget "RescueMe" */;
 			buildPhases = (
-				FDB34EB6193A23AA00A04A67 /* Sources */,
-				FDB34EB7193A23AA00A04A67 /* Frameworks */,
-				FDB34EB8193A23AA00A04A67 /* Resources */,
+				FD038DAC194301E600D34215 /* Sources */,
+				FD038DAD194301E600D34215 /* Frameworks */,
+				FD038DAE194301E600D34215 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -189,144 +154,126 @@
 			);
 			name = RescueMe;
 			productName = RescueMe;
-			productReference = FDB34EBA193A23AA00A04A67 /* RescueMe.app */;
+			productReference = FD038DB0194301E600D34215 /* RescueMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FDB34EDD193A23AA00A04A67 /* RescueMeTests */ = {
+		FD038DC5194301E700D34215 /* RescueMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB34EF2193A23AA00A04A67 /* Build configuration list for PBXNativeTarget "RescueMeTests" */;
+			buildConfigurationList = FD038DD3194301E700D34215 /* Build configuration list for PBXNativeTarget "RescueMeTests" */;
 			buildPhases = (
-				FDB34EDA193A23AA00A04A67 /* Sources */,
-				FDB34EDB193A23AA00A04A67 /* Frameworks */,
-				FDB34EDC193A23AA00A04A67 /* Resources */,
+				FD038DC2194301E700D34215 /* Sources */,
+				FD038DC3194301E700D34215 /* Frameworks */,
+				FD038DC4194301E700D34215 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FDB34EE4193A23AA00A04A67 /* PBXTargetDependency */,
+				FD038DC8194301E700D34215 /* PBXTargetDependency */,
 			);
 			name = RescueMeTests;
 			productName = RescueMeTests;
-			productReference = FDB34EDE193A23AA00A04A67 /* RescueMeTests.xctest */;
+			productReference = FD038DC6194301E700D34215 /* RescueMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FDB34EB2193A23AA00A04A67 /* Project object */ = {
+		FD038DA8194301E600D34215 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Ahmad Samra";
 				TargetAttributes = {
-					FDB34EDD193A23AA00A04A67 = {
-						TestTargetID = FDB34EB9193A23AA00A04A67;
+					FD038DAF194301E600D34215 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD038DC5194301E700D34215 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD038DAF194301E600D34215;
 					};
 				};
 			};
-			buildConfigurationList = FDB34EB5193A23AA00A04A67 /* Build configuration list for PBXProject "RescueMe" */;
+			buildConfigurationList = FD038DAB194301E600D34215 /* Build configuration list for PBXProject "RescueMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				ar,
 			);
-			mainGroup = FDB34EB1193A23AA00A04A67;
-			productRefGroup = FDB34EBB193A23AA00A04A67 /* Products */;
+			mainGroup = FD038DA7194301E600D34215;
+			productRefGroup = FD038DB1194301E600D34215 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDB34EB9193A23AA00A04A67 /* RescueMe */,
-				FDB34EDD193A23AA00A04A67 /* RescueMeTests */,
+				FD038DAF194301E600D34215 /* RescueMe */,
+				FD038DC5194301E700D34215 /* RescueMeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FDB34EB8193A23AA00A04A67 /* Resources */ = {
+		FD038DAE194301E600D34215 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34ED9193A23AA00A04A67 /* Images.xcassets in Resources */,
-				FDB34EC8193A23AA00A04A67 /* InfoPlist.strings in Resources */,
-				FDB34ED1193A23AA00A04A67 /* Main.storyboard in Resources */,
+				FD038DBF194301E700D34215 /* Main.storyboard in Resources */,
+				FD038DC1194301E700D34215 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDB34EDC193A23AA00A04A67 /* Resources */ = {
+		FD038DC4194301E700D34215 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34EEA193A23AA00A04A67 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FDB34EB6193A23AA00A04A67 /* Sources */ = {
+		FD038DAC194301E600D34215 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34ED7193A23AA00A04A67 /* SecondViewController.m in Sources */,
-				FDB34ECE193A23AA00A04A67 /* AppDelegate.m in Sources */,
-				FDB34ED4193A23AA00A04A67 /* FirstViewController.m in Sources */,
-				FDB34ECA193A23AA00A04A67 /* main.m in Sources */,
+				FD038DBC194301E600D34215 /* RescueMeViewController.m in Sources */,
+				FD038DB9194301E600D34215 /* AppDelegate.m in Sources */,
+				FD038DE0194302AA00D34215 /* RescueMe.m in Sources */,
+				FD038DB6194301E600D34215 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDB34EDA193A23AA00A04A67 /* Sources */ = {
+		FD038DC2194301E700D34215 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB34EEC193A23AA00A04A67 /* RescueMeTests.m in Sources */,
+				FD038DCD194301E700D34215 /* RescueMeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FDB34EE4193A23AA00A04A67 /* PBXTargetDependency */ = {
+		FD038DC8194301E700D34215 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDB34EB9193A23AA00A04A67 /* RescueMe */;
-			targetProxy = FDB34EE3193A23AA00A04A67 /* PBXContainerItemProxy */;
+			target = FD038DAF194301E600D34215 /* RescueMe */;
+			targetProxy = FD038DC7194301E700D34215 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDB34EC6193A23AA00A04A67 /* InfoPlist.strings */ = {
+		FD038DBD194301E700D34215 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FDB34EC7193A23AA00A04A67 /* en */,
-				FDB34EFB193A257F00A04A67 /* ar */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FDB34ECF193A23AA00A04A67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB34ED0193A23AA00A04A67 /* Base */,
-				FDB34EFC193A257F00A04A67 /* ar */,
+				FD038DBE194301E700D34215 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDB34EE8193A23AA00A04A67 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB34EE9193A23AA00A04A67 /* en */,
-				FDB34EFD193A257F00A04A67 /* ar */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FDB34EED193A23AA00A04A67 /* Debug */ = {
+		FD038DCE194301E700D34215 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,9 +288,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -358,13 +307,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		FDB34EEE193A23AA00A04A67 /* Release */ = {
+		FD038DCF194301E700D34215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,10 +329,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -390,107 +342,100 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FDB34EF0193A23AA00A04A67 /* Debug */ = {
+		FD038DD1194301E700D34215 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RescueMe/RescueMe-Prefix.pch";
-				INFOPLIST_FILE = "RescueMe/RescueMe-Info.plist";
+				INFOPLIST_FILE = RescueMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		FDB34EF1193A23AA00A04A67 /* Release */ = {
+		FD038DD2194301E700D34215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RescueMe/RescueMe-Prefix.pch";
-				INFOPLIST_FILE = "RescueMe/RescueMe-Info.plist";
+				INFOPLIST_FILE = RescueMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		FDB34EF3193A23AA00A04A67 /* Debug */ = {
+		FD038DD4194301E700D34215 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RescueMe.app/RescueMe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RescueMe/RescueMe-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RescueMeTests/RescueMeTests-Info.plist";
+				INFOPLIST_FILE = RescueMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		FDB34EF4193A23AA00A04A67 /* Release */ = {
+		FD038DD5194301E700D34215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RescueMe.app/RescueMe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RescueMe/RescueMe-Prefix.pch";
-				INFOPLIST_FILE = "RescueMeTests/RescueMeTests-Info.plist";
+				INFOPLIST_FILE = RescueMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDB34EB5193A23AA00A04A67 /* Build configuration list for PBXProject "RescueMe" */ = {
+		FD038DAB194301E600D34215 /* Build configuration list for PBXProject "RescueMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDB34EED193A23AA00A04A67 /* Debug */,
-				FDB34EEE193A23AA00A04A67 /* Release */,
+				FD038DCE194301E700D34215 /* Debug */,
+				FD038DCF194301E700D34215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDB34EEF193A23AA00A04A67 /* Build configuration list for PBXNativeTarget "RescueMe" */ = {
+		FD038DD0194301E700D34215 /* Build configuration list for PBXNativeTarget "RescueMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDB34EF0193A23AA00A04A67 /* Debug */,
-				FDB34EF1193A23AA00A04A67 /* Release */,
+				FD038DD1194301E700D34215 /* Debug */,
+				FD038DD2194301E700D34215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		FDB34EF2193A23AA00A04A67 /* Build configuration list for PBXNativeTarget "RescueMeTests" */ = {
+		FD038DD3194301E700D34215 /* Build configuration list for PBXNativeTarget "RescueMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDB34EF3193A23AA00A04A67 /* Debug */,
-				FDB34EF4193A23AA00A04A67 /* Release */,
+				FD038DD4194301E700D34215 /* Debug */,
+				FD038DD5194301E700D34215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FDB34EB2193A23AA00A04A67 /* Project object */;
+	rootObject = FD038DA8194301E600D34215 /* Project object */;
 }
