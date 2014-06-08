@@ -13,7 +13,7 @@
 @end
 
 @implementation RescueMeViewController
-@synthesize lblStatus,userLocation;
+@synthesize lblStatus,userLocation,manager;
 
 
 //Initialising the application to get use location
@@ -22,11 +22,26 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    
-    rescue = [[RescueMe alloc] init];
+    rescue =[RescueMe sharedManager];
+    [rescue start];
     rescue.delegate = self;
-    [rescue.locMgr startUpdatingLocation];
+    
+}
+
+-(void)isLocationManagerDelegateTriggered:(CLLocation *) location
+{
+    // works only first time, but gets triggered every time
+    [rescue stop];
+    rescue.delegate = nil;
+    NSString * str = [NSString stringWithFormat:@"latitude = %f longitude = %f",location.coordinate.latitude, location.coordinate.longitude];
+    if(str == nil)
+    {
+        lblStatus.text = [NSString stringWithFormat:@"غير متصل"];
+
+    }else{
+        userLocation =[NSString stringWithFormat:@"موقعي هو: %@",str];
+        lblStatus.text = [NSString stringWithFormat:@"متصل "];
+    }
 }
 
 
@@ -38,20 +53,6 @@
     
 }
 
-
-//Getting User's locations: #Connected
-
-- (void)locationUpdate:(CLLocation *)location {
-    lblStatus.text = [NSString stringWithFormat:@"متصل "];
-    userLocation =[NSString stringWithFormat:@"موقعي هو: %@",[location description]];
-}
-
-
-//Getting User's locations: #Not connected
-
-- (void)locationError:(NSError *)error {
-    lblStatus.text = [NSString stringWithFormat:@"غير متصل"];
-}
 
 - (void)didReceiveMemoryWarning
 {

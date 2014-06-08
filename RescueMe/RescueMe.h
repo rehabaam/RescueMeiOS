@@ -9,19 +9,21 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
-@protocol CoreLocationControllerDelegate
+@class RescueMe;
+
+@protocol LocationManagerDelegate
+
 @required
-- (void)locationUpdate:(CLLocation *)location; // Our location updates are sent here
-- (void)locationError:(NSError *)error; // Any errors are sent here
+-(void)isLocationManagerDelegateTriggered:(CLLocation *) location;
 @end
 
-@interface RescueMe : NSObject<CLLocationManagerDelegate> {
-	CLLocationManager *locMgr;
-    id __unsafe_unretained delegate;
-}
+@interface RescueMe : NSObject <CLLocationManagerDelegate>
 
-@property (nonatomic, retain) CLLocationManager *locMgr;
-@property (nonatomic, assign) id delegate;
++ (id)sharedManager;
+-(void)start;
+- (void)stop;
+//- (double) getDistanceToLocationInKM:(CLLocation *) location currentLocation:(CLLocation *)currentlocation;
 
+@property (nonatomic, assign) id  delegate;
 
 @end

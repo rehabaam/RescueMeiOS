@@ -32,5 +32,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>هذا البرنامج يطلب السماح بمعرفة موقعكم من اجل المساعدة، اضغط على موافق للتفعيل.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>هذا البرنامج يطلب السماح بمعرفة موقعكم من اجل المساعدة، اضغط على موافق للتفعيل.</string>
 </dict>
 </plist>
